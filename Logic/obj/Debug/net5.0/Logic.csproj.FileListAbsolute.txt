@@ -1,0 +1,12 @@
+E:\Programming\CSExamples\Logic\bin\Debug\net5.0\Logic.deps.json
+E:\Programming\CSExamples\Logic\bin\Debug\net5.0\Logic.dll
+E:\Programming\CSExamples\Logic\bin\Debug\net5.0\ref\Logic.dll
+E:\Programming\CSExamples\Logic\bin\Debug\net5.0\Logic.pdb
+E:\Programming\CSExamples\Logic\obj\Debug\net5.0\Logic.csproj.AssemblyReference.cache
+E:\Programming\CSExamples\Logic\obj\Debug\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\CSExamples\Logic\obj\Debug\net5.0\Logic.AssemblyInfoInputs.cache
+E:\Programming\CSExamples\Logic\obj\Debug\net5.0\Logic.AssemblyInfo.cs
+E:\Programming\CSExamples\Logic\obj\Debug\net5.0\Logic.csproj.CoreCompileInputs.cache
+E:\Programming\CSExamples\Logic\obj\Debug\net5.0\Logic.dll
+E:\Programming\CSExamples\Logic\obj\Debug\net5.0\ref\Logic.dll
+E:\Programming\CSExamples\Logic\obj\Debug\net5.0\Logic.pdb
