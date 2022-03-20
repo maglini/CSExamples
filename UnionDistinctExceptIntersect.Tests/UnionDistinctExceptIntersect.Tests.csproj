@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Ex1.Logic\Ex1.Logic.csproj" />
+      <ProjectReference Include="..\UnionDistinctExceptIntersect.Logic\UnionDistinctExceptIntersect.Logic.csproj" />
     </ItemGroup>
 
 </Project>
