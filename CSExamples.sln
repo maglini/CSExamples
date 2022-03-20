@@ -2,9 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnionDistinctExceptIntersect", "UnionDistinctExceptIntersect", "{CCA9B82B-4692-45E4-BDD1-C01FA622B748}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{49FF4270-2A89-47D3-A9BF-30D7CCB76765}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1.Logic", "Ex1.Logic\Ex1.Logic.csproj", "{49FF4270-2A89-47D3-A9BF-30D7CCB76765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{76242766-04B4-4CF5-8479-A8F4F46E910B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1.Tests", "Ex1.Tests\Ex1.Tests.csproj", "{76242766-04B4-4CF5-8479-A8F4F46E910B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
