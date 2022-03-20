@@ -5,7 +5,7 @@ using Logic.Compares;
 using Logic.Models;
 using Xunit;
 
-namespace Tests
+namespace Tests.ByComparer
 {
     public class LogicForUsersByUserComparerTest
     {

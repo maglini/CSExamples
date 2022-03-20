@@ -31,14 +31,14 @@ namespace Logic.Compares
 
         public int GetHashCode(T t)
         {
-            var hash = 0;
+            var hashCode = 0;
             foreach (var func in _funcs)
             {
                 var property = func.Invoke(t);
-                hash += property.GetHashCode();
+                hashCode ^= property.GetHashCode();
             }
 
-            return hash;
+            return hashCode;
         }
     }
 }

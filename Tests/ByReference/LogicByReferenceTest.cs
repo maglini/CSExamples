@@ -4,7 +4,7 @@ using Logic;
 using Logic.Models;
 using Xunit;
 
-namespace Tests
+namespace Tests.ByReference
 {
     public class LogicByReferenceTest
     {

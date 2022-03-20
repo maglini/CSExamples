@@ -1,12 +1,11 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using FluentAssertions;
 using Logic;
 using Logic.Compares;
 using Logic.Models;
 using Xunit;
 
-namespace Tests
+namespace Tests.ByComparer
 {
     public class LogicForCatsByUniqueGenericComparerByNameTest
     {
