@@ -12,7 +12,7 @@ namespace Attributes.Logic.Example1
     {
         [Conditional("Debug")]
         [Conditional("Release")]
-        public void DoSomething()
+        private void DoSomething()
         {
         }
 
@@ -28,12 +28,11 @@ namespace Attributes.Logic.Example1
             //Вывод набора атрибутов, примененных к типу
             ShowAttributes(typeof(ReflectionExample1));
 
-            //Получение и задание методов, связанных с типом
-            var members =
-                from m in typeof(ReflectionExample1).GetTypeInfo().DeclaredMembers.OfType<MethodBase>()
-                where m.IsPublic
-                select m;
-
+            // //Получение и задание методов, связанных с типом
+            var members = typeof(ReflectionExample1).GetTypeInfo().DeclaredMembers.OfType<MethodBase>()
+                .Select(m => m)
+                .Where(m => m.IsPublic ||  m.IsPrivate);
+            
             foreach (MemberInfo member in members)
             {
                 //Вывод набора атрибутов, примененных к члену
