@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using Delegates.Logic.Common;
 using Delegates.Logic.Common.Entities;
 
-namespace Delegates.Logic.Example1
+namespace Delegates.Logic.Example4
 {
-    public class LetterHandler
+    public class LetterHandlerGeneric<T> where T : Person
     {
-        private static Func<Person, Person, string, string> _getLetterDelegate;
-         
-        public static void GetAllMessages(Person from, Person to, string phrase)
+        private static Func<T, T, string, string> _getLetterDelegate;
+        
+        public static void GetAllMessages(T from, T to, string phrase)
         {
-                
             string title = $"New letter has received!\nDate: {DateTime.Now}";
             
             _getLetterDelegate += LetterStyle.GetBusinessStyleLetter;
@@ -34,7 +33,7 @@ namespace Delegates.Logic.Example1
             }
         }
 
-        public static void GetLastMessages(Person from, Person to, string phrase)
+        public static void GetLastMessages(T from, T to, string phrase)
         {
             string title = $"New letter has received!\nDate: {DateTime.Now}";
             

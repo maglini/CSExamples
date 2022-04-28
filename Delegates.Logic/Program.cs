@@ -9,8 +9,13 @@
             // Example1.Example1.GetLastMessages();
             //
             // Example2.Example2.Execute();
+            //
+            //Example3.Example3.Execute();
+            //
             
-            Example3.Example3.Execute();
+            Example4.Example4.GetAllMessages();
+            
+            Example4.Example4.GetLastMessage();
 
         }
     }
