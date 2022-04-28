@@ -1,22 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using ConsoleApp6.Entities;
-
-namespace ConsoleApp6
+﻿namespace Delegates.Logic
 {
- 
     class Program
     {
         public static void Main()
         {
-            Executor.Execute();
+            // Example1.Example1.GetAllMessages();
+            //
+            // Example1.Example1.GetLastMessages();
+            //
+            // Example2.Example2.Execute();
             
-            MyLinqExample.Execute();
-            
-            DynamicInvokeDelegateExample.GetAllMessages();
-            
-            DynamicInvokeDelegateExample.GetLastMessages();
+            Example3.Example3.Execute();
+
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp6.Entities
+﻿namespace Delegates.Logic.Common.Entities
 {
     public enum Gender
     {
